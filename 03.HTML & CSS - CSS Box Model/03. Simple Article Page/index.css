@@ -1,0 +1,30 @@
+.picture
+{
+  width: 500px; /* Set the desired width */
+  height: auto; /* Maintain the aspect ratio */
+  align-items: center;
+}
+body
+{
+    margin: 100px;
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51) ;
+}
+.article-container {
+    position: relative;
+  }
+  
+  article h1 {
+    margin-right: 150px; /* Добавете място за aside в дясно */
+  }
+  
+  aside {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 130px; /* Ширина на aside */
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
